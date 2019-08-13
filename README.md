@@ -1,4 +1,4 @@
-# Zcash Memo Mailing List - Python Script 
+# Python Zcash Memo Mailer
 
 This python script will open a file named "mailinglist.txt" that has a z-address on every line, and ask the user
 to input a memo. It will then assemble a z_sendmany transaction with a 1 zatoshi output and the memo for each recipient listed in
