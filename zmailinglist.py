@@ -12,7 +12,7 @@ outstring += 'zcash-cli z_sendmany "zsxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 outstring += '"['
  
 for a in file:
-    outstring += '{\\"address\\": \\"'+a+'\\",\\"amount\\": 0.00000001, \\"memo\\":\\"'+hextext+'\\"},'
+    outstring += '{\\"address\\": \\"'+a.replace(',','')+'\\",\\"amount\\": 0.00000001, \\"memo\\":\\"'+hextext+'\\"},'
    
  
 outstring=outstring[:-1]
